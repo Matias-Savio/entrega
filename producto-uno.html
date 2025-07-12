@@ -4,14 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <a href="index.html">Inicio</a>
-    <h1>descripcion del producto</h1>
-    <img
-      src="https://res.cloudinary.com/duvzoazz3/image/upload/v1749781975/58471_880x390_a24aym.jpg"
-      alt=""
-    />
-    <img src="" alt="" />
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <img src="img/logo.png" alt="Logo de la empresa" />
+      </div>
+      <ul class="navbar-menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="producto-uno.html">Producto</a></li>
+        <li><a href="sobre-nosotros.html">Nosotros</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <section class="product-container">
+      <div class="product-card">
+        <img src="producto1.jpg" alt="Producto 1" class="product-img" />
+        <div class="product-info">
+          <h3 class="product-title">Producto 1</h3>
+          <p class="product-description">Descripción corta del producto.</p>
+          <span class="product-price">$99.99</span>
+          <button class="btn">Ver más</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="producto2.jpg" alt="Producto 2" class="product-img" />
+        <div class="product-info">
+          <h3 class="product-title">Producto 2</h3>
+          <p class="product-description">Descripción corta del producto.</p>
+          <span class="product-price">$79.99</span>
+          <button class="btn">Ver más</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="producto3.jpg" alt="Producto 3" class="product-img" />
+        <div class="product-info">
+          <h3 class="product-title">Producto 3</h3>
+          <p class="product-description">Descripción corta del producto.</p>
+          <span class="product-price">$129.99</span>
+          <button class="btn">Ver más</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="producto4.jpg" alt="Producto 4" class="product-img" />
+        <div class="product-info">
+          <h3 class="product-title">Producto 4</h3>
+          <p class="product-description">Descripción corta del producto.</p>
+          <span class="product-price">$79.99</span>
+          <button class="btn">Ver más</button>
+          <button class="btn"><a href="producto-dos.html">Comprar</a></button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
