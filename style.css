@@ -53,10 +53,7 @@ body {
 /* Estilos generales para el contenedor de productos */
 .product-container {
   display: grid;
-  grid-template-columns: repeat(
-    auto-fill,
-    minmax(300px, 1fr)
-  ); /* Ajusta automáticamente las columnas */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   padding: 20px;
   justify-items: center;
@@ -151,7 +148,7 @@ header {
 }
 
 .logo img {
-  height: 70px;
+  height: 60px;
   cursor: pointer;
 }
 
@@ -209,7 +206,7 @@ main {
   background-color: #fafafa;
 }
 
-/* FOOTER: Grid */
+/* Footer*/
 footer {
   display: grid;
   grid-template-columns: 1fr;
@@ -332,7 +329,7 @@ select {
 
 @media (min-widht: 600px) {
   .main .parrafo {
-    grid-template-columns: 1fr; /* En pantallas pequeñas, una sola columna */
+    grid-template-columns: 1fr;
   }
 }
 
