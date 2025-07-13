@@ -35,12 +35,19 @@ body {
 .navbar-menu a {
   color: white;
   text-decoration: none;
-  font-size: 16px;
-  transition: color 0.3s;
+  /* font-size: 1.3rem;
+  font-weight: 500;
+  padding: 3px 20px;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  transition: all 0.7s ease;
+  white-space: nowrap;*/
 }
 
 .navbar-menu a:hover {
   color: #ddd;
+  /*background-color: #218838;
+  border: 2px solid white;*/
 }
 
 /* Estilos generales para el contenedor de productos */
@@ -145,6 +152,7 @@ header {
 
 .logo img {
   height: 70px;
+  cursor: pointer;
 }
 
 .search-container {
@@ -246,11 +254,13 @@ footer {
   border-radius: 8px;
 }
 
+/*sidebar*/
 .sidebar {
   background-color: #e0e0e0;
   padding: 20px;
   border-radius: 8px;
 }
+
 /*Carrito*/
 .container {
   max-width: 800px;
@@ -320,14 +330,11 @@ select {
   transition: background-color 0.3s ease;
 }
 
-.boton-flotante:hover {
-  background-color: #0056b3;
-}
-@media (max-widht: 768px) {
+@media (min-widht: 600px) {
   .main .parrafo {
     grid-template-columns: 1fr; /* En pantallas pequeñas, una sola columna */
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
 }
