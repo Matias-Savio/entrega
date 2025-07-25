@@ -236,7 +236,7 @@ footer {
 .footer-col a:hover {
   color: white;
 }
-
+/*grid*/
 .main .parrafo {
   display: grid;
   grid-template-columns: 2fr 1fr; /* 2 partes contenido, 1 parte sidebar */
