@@ -11,6 +11,7 @@ body {
   min-height: 100vh;
   background-color: rgb(226, 236, 245);
   overflow-x: hidden;
+  overflow-y: auto;
 }
 
 /*Navbar*/
@@ -59,7 +60,9 @@ body {
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
-  max-width: 300px;
+  /*max-width: 300px;*/
+  width: 300px;
+  height: 500px;
   text-align: center;
 }
 
@@ -71,7 +74,7 @@ body {
 /* Estilo de la imagen del producto */
 .product-img {
   width: 100%;
-  height: 200px;
+  height: 50%;
   object-fit: cover;
 }
 
@@ -128,6 +131,23 @@ body {
 /* Efecto hover en el botón */
 .btn:hover {
   background-color: #2980b9;
+}
+
+.stock-agotado {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: 100%;*/
+  background: rgba(255, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  pointer-events: none;
 }
 /* Header */
 header {
