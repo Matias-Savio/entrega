@@ -423,16 +423,25 @@ a.cart span {
   section.cards {
     grid-template-columns: 1fr;
   }
+  body {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
   section.cards {
     grid-template-columns: repeat(2, 1fr);
   }
+  body {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 769px) {
   section.cards {
     grid-template-columns: repeat(4, 1fr);
+  }
+  body {
+    font-size: 18px;
   }
 }
