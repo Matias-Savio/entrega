@@ -290,7 +290,7 @@ footer {
   margin: auto;
   background: #fff;
   padding: 30px;
-  border-radius: 8px;
+  border-radius: 80px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -299,7 +299,7 @@ h2 {
 }
 
 .section {
-  margin-bottom: 30px;
+  margin-bottom: 44px;
 }
 
 label {
@@ -319,7 +319,7 @@ select {
 .product-summary {
   background: #f1f1f1;
   padding: 15px;
-  border-radius: 6px;
+  border-radius: 25px;
 }
 
 .btn-finalizar {
@@ -327,7 +327,7 @@ select {
   color: white;
   padding: 15px;
   border: none;
-  border-radius: 4px;
+  border-radius: 25px;
   width: 100%;
   font-size: 16px;
   cursor: pointer;
